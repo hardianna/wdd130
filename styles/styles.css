@@ -32,3 +32,31 @@ footer {
   color: #555;               /* text color */
   background-color: #f9f9f9; /* light background */
 }
+
+/* Navigation bar */
+nav {
+  background-color: #333;  /* dark background */
+  padding: 10px;
+}
+
+nav a {
+  color: white;            /* link text color */
+  padding: 10px;
+  display: block;          /* makes links fill the nav area */
+  text-decoration: none;   /* removes underline */
+}
+
+/* Main heading */
+h1 {
+  color: #2c3e50;          /* dark blue-gray text */
+}
+
+/* General images */
+img {
+  width: 200px;
+  height: auto;
+  border: 2px solid #ccc;
+  padding: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
