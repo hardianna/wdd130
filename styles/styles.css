@@ -1,6 +1,7 @@
 main {
   max-width: 800px;   /* keeps main section from being too wide */
-  margin: 0 auto;     /* centers it */
+  margin: 0 auto; 
+  text-align: center;    /* centers it */
 }
 
 aside {
