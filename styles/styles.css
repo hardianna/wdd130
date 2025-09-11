@@ -17,7 +17,13 @@ aside img {
   width: 200px;
   height: auto;
 }
-
+main img {
+width: 200px;
+height: auto;
+border: #000;
+padding: 10px;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
 p {
     padding: 0;
 }
