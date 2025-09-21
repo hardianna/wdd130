@@ -177,5 +177,5 @@ main { padding: 1.25rem; }
   .brand { justify-self: center; }
   .main-nav ul { justify-content: center; }
   .hero-panel { grid-template-columns: 1fr; }
-  .hero-panel .panel-thumb { display: none; } /* hide thumb on very small screens */
+  .hero-panel .panel-thumb { display: none; }
 }
