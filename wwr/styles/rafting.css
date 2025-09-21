@@ -156,6 +156,7 @@ main { padding: 1.25rem; }
 
 .site-footer .socials {
   display: flex;
+  text-decoration: none;
   gap: 12px;                    /* space between icons */
   justify-content: center;      /* center the row of icons */
 }
