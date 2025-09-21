@@ -167,7 +167,8 @@ main { padding: 1.25rem; }
 .site-footer .socialmedia {
   display: flex;
   gap: 12px;                    /* space between icons */
-  justify-content: center;      /* center the row of icons */
+  justify-content: center;
+  text-decoration: none;      /* center the row of icons */
 }
 .socialmedia a {
   text-decoration: none;
@@ -177,9 +178,11 @@ main { padding: 1.25rem; }
   width: 28px;
   height: 28px;
   transition: transform .2s ease;
+  text-decoration: none;
 }
 .site-footer .socialmedia img:hover {
   transform: scale(1.1);
+  text-decoration: none;
 }
 
 
