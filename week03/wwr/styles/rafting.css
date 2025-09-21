@@ -1,0 +1,101 @@
+
+
+:root {
+  --primary-color: #055a05; /* forest Green */
+  --secondary-color: #f4a261;  /* warm sand */
+  --accent1-color: #264653;  /* dark slate blue */
+  --accent2-color: #e9c46a;  /* Light gold yellow */
+  --body-font: Arial, helvetica, sans-serif; 
+  --heading-font: 'Times New Roman', Georgia, serif;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-color);
+}
+
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+/* Headings */
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* Navigation */
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+
+header img {
+  width: 150px;   /* fixed size */
+  height: auto;   /* keeps proportions */
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: url("../images/hero.jpg") no-repeat center center;
+background-size: contain;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;   /* sticks overlay to bottom of the image */
+  left: 0;
+  width: 100%; /* full width banner */
+  background-color: rgba(0, 51, 102, 0.8); /* dark blue, semi-transparent */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlay h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.overlay p {
+  margin: 10px 0 0;
+  font-size: 1.1rem;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 2px solid var(--primary-color);
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+footer .socialmedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;    /* spacing between icons */
+  margin-top: 10px;
+}
+
+footer .socialmedia img {
+  width: 32px;   /* smaller size */
+  height: 32px;
+}
