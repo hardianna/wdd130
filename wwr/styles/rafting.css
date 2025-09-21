@@ -167,9 +167,10 @@ main { padding: 1.25rem; }
 .site-footer .socials {
   display: flex;
   gap: 12px;                    /* space between icons */
-  justify-content: center;      /* center the row of icons */
+  justify-content: center;
+  text-decoration: none;      /* center the row of icons */
 }
-.socials a {
+.site-footer .socials a {
   text-decoration: none;
 }
 
