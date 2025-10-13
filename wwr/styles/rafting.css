@@ -88,25 +88,23 @@ img {
 .contact-wrapper {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
-  margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
 /* MAP */
 .map iframe {
-  width: 350px;
+  width: 400px;
   height: 500px;
   border: none;
-  border-radius: 5px;
 }
 
 /* === CONTACT FORM LAYOUT === */
 
 .contact-form {
-  flex: 1;
+flex: auto;
   max-width: 550px;
 }
 
@@ -171,9 +169,6 @@ img {
 .submit-button:hover {
   background-color: #276bb5;
 }
-
-
-
 
 /* EMPLOYEE SECTION */
 .team {
